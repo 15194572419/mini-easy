@@ -1,0 +1,16 @@
+<!--authorizw.wxml -->
+<!-- 由于微信直接可使用户授权的接口，所以设置统一的授权页面 -->
+<view class="authorize-container">
+  <icon type="info" size="80"></icon>
+  <view class="authorize-text">
+    <p>使用该小程序需要您授权微信信息，同意即代表您愿意遵守用户约规。</p>
+  </view>
+  <button type="primary" class="authorize-button" open-type="getUserInfo">
+    同意
+  </button>
+  <button type="primary" class="authorize-button">
+    <navigator target="miniProgram" open-type="exit" >退出小程序</navigator>
+  </button>
+  
+</view>
+

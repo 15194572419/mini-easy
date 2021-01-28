@@ -1,0 +1,9 @@
+<!--myself.wxml-->
+<view class="container">
+  <view class="header-container" style="background-image:url({{headerBackground}})">
+    <image class="headPicture" src="{{headerPicPath}}">
+    </image>
+    <view>{{nickName}}</view>
+  </view>
+</view>
+

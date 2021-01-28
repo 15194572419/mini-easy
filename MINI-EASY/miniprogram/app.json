@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myself/myself",
+    "pages/authorize/authorize"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "mini-app-scaffold",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home-icon.png",
+      "selectedIconPath": "images/home-icon.png"
+    },
+    {
+      "pagePath": "pages/myself/myself",
+      "text": "我的",
+      "iconPath": "images/myself-icon.jpg",
+      "selectedIconPath": "images/myself-icon.jpg"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

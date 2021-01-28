@@ -1,0 +1,19 @@
+.header-container{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  padding:15%
+}
+.headPicture{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 5%;
+}

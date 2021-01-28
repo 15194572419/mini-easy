@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view wx:if="{{authorizeMark}}" class="container">
+  <div style="background:pink;margin-bottom:50%">
+    <text>hello MINI-EASY</text>
+  </div>
+  <button type="primary" bindtap="testApi">testApi</button>
+</view>
+

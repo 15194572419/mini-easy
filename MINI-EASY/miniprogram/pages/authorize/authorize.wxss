@@ -1,0 +1,14 @@
+.authorize-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20% 10%;
+}
+.authorize-text{
+  text-align:center;
+  margin: 10% 0;
+}
+.authorize-button{
+  width: 90%;
+  margin: 2% 0 ;
+}
